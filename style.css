@@ -1,0 +1,70 @@
+*  {
+  margin: 0px;
+  padding: 0px;
+}
+title,description,survey-form,name,email,number,name-label,email-label,number-label,dropdown {
+  display: block;
+}
+body {
+  text-align: center;
+  background: cornsilk;
+  font-size: 20px;
+}
+#title {
+  font: bold 50px ariel;
+}
+p {
+  font: bold 20px ariel;
+}
+#survey-form {
+  border: 1px solid black;
+  margin: 20px 300px 0px 300px;
+  background: dimgray;
+  border-radius: 5%;
+
+}
+#name-label {
+  padding-top: 10px;
+  text-align: left;
+
+}
+li {
+  display: inline-block;
+}
+#name {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  box-sizing: border-box;
+  border-radius: 4%;
+
+}
+#email {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  box-sizing: border-box;
+  border-radius: 4%;
+
+}
+#number {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  box-sizing: border-box;
+  border-radius: 4%;
+}
+#dropdown {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  box-sizing: border-box;
+  border-radius: 4%;
+}
+#submit {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  box-sizing: border-box;
+  border-radius: 4%;
+}

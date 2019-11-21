@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 id="title">Madigawa youth in nation Building Dala</h1>
+  <p id="description">Education is a key to success</p>
+  <form action="#0" id="survey-form" method="post">
+  
+      
+    <label for="name" id="name-label"> Name</label><br/>
+      <input type="text" id="name" required="required" placeholder="Enter name"/><br/>
+    
+      
+    <label for="email" id="email-label">Email</label><br/>
+      <input type="email" id="email" required="required" placeholder="Enter a valid email"/><br/>
+      
+    
+      <label for="number" id="number-label">Age</label><br/>
+      
+      <input type="number" id="number" name="Age" min="1" max="40" placeholder="enter your age"/><br/>
+      
+    
+    
+      <p>please select your favorite Subjects<br/>
+        <ul>
+      <input type="radio" name="food" value="Mathmatic"/>Mathematic</li>
+      <li><input type="radio" name="food" value="Physic"/>Physic</li>
+    </li><input type="radio" name="food" value="Chemistry"/>Chemistry</li>
+    </ul>
+    </p>
+    <p>How do you here about us?
+      <br/>
+      <ul>
+      
+      <li><input type="checkbox" name="service"
+		 value="radio"/> Radio</li>
+		 <li><input type="checkbox" name="service"
+		 value="telvision" /> Television</li>
+     <li><input type="checkbox" name="service"
+       value="other" /> Other</li>
+      </ul>
+
+    </p>
+     
+    
+    <p>Why do you want to join us?</p><br/>
+    <select name="reason" id="dropdown">
+      <option value="education">Education</option>
+      <option value="advice">Advice</option>
+      <option value="career">Career</option>
+    </select>
+    <p>Any comments or suggestions?</p>
+    <textarea name="comments" cols="65" rows="10">Enter your comments here</textarea>
+    <p>
+    <input type="submit" id="submit" name="submit" value="Submit"/></p> 
+    
+    
+
+    
+
+    
+
+  </form>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+  
+  
+  
+  
+</body>
+</html>
